@@ -4,7 +4,7 @@ export interface HistoricoGases {
 }
 
 export interface Precio {
-    fecha: string;
+    fecha: string | Date;
     precio: number;
 }
 
